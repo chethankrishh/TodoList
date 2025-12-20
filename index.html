@@ -8,12 +8,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Todo List</h1>
-      <div class="input-section">
-        <input type="text" id="task-input" placeholder="Add a new task..." />
-        <button id="add-task-button">Add Task</button>
+      <div class="header">
+        <img src="images/icon.png" alt="Todo Icon" class="icon" />
+        <h1 class="title">Todo List</h1>
       </div>
-      <ul id="task-list"></ul>
+
+      <div class="input-section">
+        <input
+          type="text"
+          id="task-input"
+          class="task-input"
+          placeholder="Add a new task..."
+        />
+        <button class="addButton" id="add-task-button">Add Task</button>
+      </div>
+      <ul id="task-list" class="task-list"></ul>
     </div>
   </body>
   <script src="script.js"></script>
